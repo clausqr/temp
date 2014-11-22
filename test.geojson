@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3491667, 47.6202333]
+      },
+      "properties": {
+        "name": "Seattle Space Needle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.34870, 47.6200], [-122.350, 47.6190], [-122.351, 47.6195], [-122.353, 47.6195]
+        ]
+      },
+      "properties": {
+        "name": "Set of Lines"
+      }
+    },
+      {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.3510, 47.6215], [-122.3510, 47.6205], [-122.3500, 47.6205], [-122.3500, 47.6215]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Polygon",
+        "title": "Example of a Rectangular feature" 
+      }
+    }  
+  ]
+}
